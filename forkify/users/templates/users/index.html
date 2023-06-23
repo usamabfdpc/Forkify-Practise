@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}
+Index Page
+{% endblock title %}
+{% block content %}
+    <h2>Forkify</h2>
+    <li><a href="{% url 'register' %}">Register</a></li>
+    <li><a href="{% url 'login' %}">Login</a></li>
+    <li><a href="{% url 'password_reset' %}">Forget Password</a></li>
+
+{% endblock content %}
